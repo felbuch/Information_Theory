@@ -1,0 +1,11 @@
+1. Create function to validate array of joint probabilities. Namely, assert that:
+a) All probabilities are non-negative
+b) All probabilities add to 1
+
+2. Incorporate the function mentioned in item (1) into those functions which use arrays of joint probabilities, such as the joint_entropy function
+
+3. Create function to calculate information gain.
+Allow for result to be shown in any of three forms chosen by the user:
+a) Difference in bits
+b) Percentual difference, as decimal number (e.g. 0.23, for 23%)
+c) Percentual difference, as percentage (e.g. 23 for 23%)
